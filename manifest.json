@@ -17,8 +17,8 @@
     ],
     "content_scripts": [{
         "matches": [
-            "https://github.com/*"
-            /* 
+            "<all_urls>"
+            /* 匹配网址
             "http://localhost:(\\d)+",
             "https://localhost:(\\d)+",
             "http://127.0.0.1:(\\d)+",
