@@ -1,0 +1,55 @@
+body {
+   color: #81d8d0;
+   padding: 0px 10px;
+}
+
+ul {
+   color: #000;
+   padding-left: 0;
+}
+
+li {
+   list-style: none;
+   line-height: 20px;
+   font-size: 16px;
+   white-space:nowrap; 
+   padding: 2px 0px;
+}
+
+label {
+   padding: 2px 0px;
+}
+
+button {
+    background-position-x: 12px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #157efb;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Google Sans',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    height: 36px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 16px;
+    position: relative;
+    -webkit-user-select: none;
+}
+
+button:hover {
+    border-color: rgb(210, 227, 252);
+ }
+
+.float-right {
+   float: right;
+}
+
+#download {
+  background-image: url("icons/download.png");
+}
