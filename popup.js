@@ -7,7 +7,6 @@ window.onload = function () {
          chrome.tabs.sendMessage(tabs[0].id, {
             todo: "download", downloadFile: [javaPage.checked, dataDictionary.checked]
          });
-         console.log(tabs[0].id);
       })
       this.blur();
    }
